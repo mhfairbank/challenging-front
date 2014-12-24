@@ -4,27 +4,114 @@ var itemCount = $('.mini-cart-quantity').text();
 
 var images = $('.mini-cart-image.alpha.grid_4 img');
 
+var scrollPercentage;
+$('#main').scroll(function(){
+  debugger;
+  console.log("worked");
+});
 
- $(function () {
-  $("#dialog").dialog($.extend({}, dialogOptions, {
-    autoOpen: false,
-    width: 500,
-    modal: true,
-    show: {
-      effect: "blind",
-      duration: 1000
-    },
-    hide: {
-      effect: "fade",
-      duration: 1000
-    }
-  }));
+$(window).scroll(function(){
+	var scrollPercentage = $(window).scrollTop(); 
+	console.log(scrollPercentage);
+});
 
-  $("#profile_edit").click(function () {
-    $("#dialog").dialog("open");
-  });
+$(window).scrollTop()
+$(window).height()
+$(document).height()
 
-  $("#save_and_close").click(function () {
-    $("#dialog").dialog("close");
-  });
- });
+($(window).scrollTop() + $(window).height()) / $(document).height()
+
+
+$(window).scroll(function(){
+	var scrollRatio = ($(window).scrollTop() + $(window).height()) / $(document).height();
+	if(scrollRatio >= 0.9){
+		console.log(scrollRatio);
+	}
+});
+
+
+$(window).scroll(function(){
+	var scrollRatio = ($(window).scrollTop() + $(window).height()) / $(document).height();
+	if(scrollRatio >= 0.9){
+		$('#cartModal').modal();
+	}
+});
+
+$(window).scroll(function(){
+	var scrollRatio = ($(window).scrollTop() + $(window).height()) / $(document).height();
+	if(scrollRatio >= 0.9){
+		$('#cartModal').modal();
+	}
+});
+
+<div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="cartModal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <h3>Modal Body</h3>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+		</div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
