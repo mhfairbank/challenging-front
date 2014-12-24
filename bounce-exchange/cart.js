@@ -4,6 +4,53 @@ var itemCount = $('.mini-cart-quantity').text();
 
 var images = $('.mini-cart-image.alpha.grid_4 img');
 
+$(window).scroll(function(){
+	var scrollRatio = ($(window).scrollTop() + $(window).height()) / $(document).height();
+	if(scrollRatio >= 0.9){
+		// show the modal
+		$('#cartModal').modal();
+	}
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var scrollPercentage;
 $('#main').scroll(function(){
   debugger;
