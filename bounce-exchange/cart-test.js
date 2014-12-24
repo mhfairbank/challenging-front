@@ -1,3 +1,10 @@
+$('.mini-cart-total a')
+
+
+
+
+
+
 var scrollPercentage;
 $('#main').scroll(function(){
   debugger;
