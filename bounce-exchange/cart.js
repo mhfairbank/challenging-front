@@ -24,11 +24,7 @@ $(window).scroll(function(){
 	}
 });
 
-
-
-
-
-// Only shows overlay when user is logged in. Doesn't use cookies. Copy lines 33-55 into the console all at once.
+// Only shows overlay when user is logged in. Doesn't use cookies. Copy lines 29-51 into the console all at once.
 
 var subtotal = $('.grid_6.value.omega').text();
 var itemCount = $('.mini-cart-quantity').text();
