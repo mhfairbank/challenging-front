@@ -1,3 +1,30 @@
+(function(){
+	var scrollScript = {};
+	function subtotal(){
+		$('.grid_6.value.omega').text();
+	}
+	scrollScript.itemCount = $('.mini-cart-quantity').text();
+	scrollScript.imageArr = $('.mini-cart-image.alpha.grid_4 img');
+	scrollScript.cartURL = $('.mini-cart-content > .grid_12 > a:first').attr('href');
+	scrollScript.itemURLs = $('.mini-cart-name.grid_8 > a');
+
+
+
+	window.scrollScript = scrollScript;
+})()
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Only shows overlay when user is logged in. Uses cookies. Copy lines 63-85 into the console all at once.
 
