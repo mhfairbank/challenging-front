@@ -24,7 +24,7 @@ def super_circle(start)
 end
 
 # uncomment these to test
-# test_num = 9
+# test_num = 7
 
 # circle(test_num)
 # super_circle(test_num)
