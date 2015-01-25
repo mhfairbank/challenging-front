@@ -14,9 +14,11 @@ Efficiency constraints
 * your function is expected to print the result in less than 2 seconds
 
 Example
+
 Input
 * v: 6, 9, 4, 7, 4, 1
 * d: 3
+
 Output
 * 6
 
