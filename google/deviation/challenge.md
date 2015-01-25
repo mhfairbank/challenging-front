@@ -23,9 +23,11 @@ Output
 * 6
 
 Explanation
+
 The sequences of length 3 are:
-6 9 4 having the deviation 5 (the minimum value in the sequence is 4 and the maximum is 9)
-9 4 7 having the deviation 5 (the minimum value in the sequence is 4 and the maximum is 9)
-4 7 4 having the deviation 3 (the minimum value in the sequence is 4 and the maximum is 7)
-7 4 1 having the deviation 6 (the minimum value in the sequence is 1 and the maximum is 7)
+* 6 9 4 having the deviation 5 (the minimum value in the sequence is 4 and the maximum is 9)
+* 9 4 7 having the deviation 5 (the minimum value in the sequence is 4 and the maximum is 9)
+* 4 7 4 having the deviation 3 (the minimum value in the sequence is 4 and the maximum is 7)
+* 7 4 1 having the deviation 6 (the minimum value in the sequence is 1 and the maximum is 7)
+
 The maximum value among all deviations is 6
