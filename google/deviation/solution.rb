@@ -10,7 +10,7 @@ def find_deviation(values, length)
   puts max_deviation
 end
 
-test_array = [3,2,7,4,9,5]
+test_array = [3,2,7,4,8,5]
 length = 4
 
 # expect 7
