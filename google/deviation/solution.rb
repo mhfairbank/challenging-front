@@ -13,5 +13,5 @@ end
 test_array = [3,2,7,4,8,5]
 length = 4
 
-# expect 7
+# expect 6
 find_deviation(test_array, length)

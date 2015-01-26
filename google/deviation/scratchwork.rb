@@ -19,14 +19,14 @@ end
 
 def large_array
 	a = 100000
-
 	la = []
-
 	while a > 0 do
-		la.push(a % 359)
+		la.push(a % 75001)
 		a -= 1
 	end
 	la
 end
 
-find_deviation(large_array, 1000)
+test_array = [3,2,7,4,8,5]
+
+find_deviation(test_array, 4)
